@@ -1,6 +1,61 @@
 import logo from './logo.svg';
 import './App.css';
 
+function Header() {
+    return (
+        <header>
+            <nav className="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-kinda-dark border-bottom box-shadow mb-3">
+                <div className="container">
+                    <a className="text-gray navbar-brand " asp-area="" asp-page="/Index">Alex Norris</a>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul className="navbar-nav flex-grow-1">
+                            <li className="nav-item nav-mobile">
+                                <a className="nav-link  text-white" asp-page="/Resume">CV/Resume</a>
+                            </li>
+                            <li className="nav-item nav-mobile">
+                                <a className="nav-link  text-white" asp-page="/Awards">Awards</a>
+                            </li>
+                            <li className="nav-item nav-mobile">
+                                <a className="nav-link  text-white" asp-page="/Contact">Contact</a>
+                            </li>
+                        </ul>
+                        <ul className="navbar-nav">
+                            <li style={{ marginRight: "15px" }}>
+                                <form>
+                                    <a href="https://github.com/AlexJNorris">
+                                        <img src="/GitHub_Logo_White.png" height="35px" width="90px" />
+                                    </a>
+                                </form>
+                            </li>
+                            <li className="nav-mobile">
+                                <form>
+                                    <a href="https://www.linkedin.com/in/alex-norris-09aa9510a/">
+                                        <img src="/LI-In-Bug.png" height="32px" width="40px" />
+                                    </a>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        )
+}
+
+function Footer() {
+    return (
+        <footer class="border-top footer text-muted bg-kinda-dark">
+            <div class="container">
+                2024 - Alex Norris' Portfolio Website
+            </div>
+        </footer>
+        )
+}
+
 function App() {
     return (
     
@@ -11,49 +66,9 @@ function App() {
                 <title>Alex Norris: Software Engineer</title>
                 <link rel="stylesheet" href="~src/bootstrap/dist/css/bootstrap.min.css" />
             </head>
-          <header>
-              <nav className="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-kinda-dark border-bottom box-shadow mb-3">
-                  <div className="container">
-                      <a className="text-gray navbar-brand " asp-area="" asp-page="/Index">Alex Norris</a>
-                      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                          aria-expanded="false" aria-label="Toggle navigation">
-                          <span className="navbar-toggler-icon"></span>
-                      </button>
-                      <div className="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                          <ul className="navbar-nav flex-grow-1">
-                              <li className="nav-item nav-mobile">
-                                  <a className="nav-link  text-white" asp-page="/Resume">CV/Resume</a>
-                              </li>
-                              <li className="nav-item nav-mobile">
-                                  <a className="nav-link  text-white" asp-page="/Awards">Awards</a>
-                              </li>
-                              <li className="nav-item nav-mobile">
-                                  <a className="nav-link  text-white" asp-page="/Contact">Contact</a>
-                              </li>
-                          </ul>
-                          <ul className="navbar-nav">
-                              <li style={{marginRight: "15px"}}>
-                                  <form>
-                                        <a href="https://github.com/AlexJNorris">
-                                            <img src="/GitHub_Logo_White.png" height="35px" width="90px"/>
-                                        </a>
-                                    </form>
-                                </li>
-                              <li className="nav-mobile">
-                                      <form>
-                                        <a href="https://www.linkedin.com/in/alex-norris-09aa9510a/">
-                                            <img src="/LI-In-Bug.png" height="32px" width="40px"/>
-                                        </a>
-                            </form>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-            <div class="container">
+            <Header />
+            <div class="container" style={{ paddingBottom: "50px" }}>
                 <main role="main" class="pb-3">
-
                     <div class="">
                         <div class="row">
                             <div class="col-sm-3" style={{ margin: "15px" }}>
@@ -81,7 +96,7 @@ function App() {
                                             <h1 class="display-4" style={{ fontSize: "2rem", marginTop: "20px", marginBottom: "20px" }}>CI/CD DevOps Pipeline Using Jenkins</h1>
                                             <hr/>
                                                 <p style={{ marginTop: "30px", marginBottom: "20px" }}>
-                                                    During the Strategio Enterprise Simulator, our final group project was to develop a CI/CD Pipeline. My group employed Jenkins as the main pipelining tool with a GitHub Webhook as the pipeline’s trigger and a Kubernetes cluster made with AWS EKS as the endpoint. Inside the pipeline, we built a Docker container, hosted our Django application, tested using the Django testing framework, then pushed the image to the EKS cluster.
+                                                    During the Strategio Enterprise Simulator, our final group project was to develop a CI/CD Pipeline. My group employed Jenkins as the main pipelining tool with a GitHub Webhook as the pipeline trigger and a Kubernetes cluster made with AWS EKS as the endpoint. Inside the pipeline, we built a Docker container, hosted our Django application, tested using the Django testing framework, then pushed the image to the EKS cluster.
                                                 </p>
                                         </div>
                                             <div class="col">
@@ -133,8 +148,10 @@ function App() {
                                                                         </div>
                                                                     </div>
 
-        </main>
-    </div>
+                </main>
+            </div>
+            <hr />
+            <Footer/>
     </div>
   );
 }
