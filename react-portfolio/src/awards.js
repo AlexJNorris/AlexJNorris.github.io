@@ -9,7 +9,7 @@ function Awards() {
                     <h1 class="display-4" style={{ fontSize: 2 + "rem" }}> Strategio Enterprise Simulator - Certificate of Completion </h1>
                     <hr />
                     <div className="icontainer">
-                        <iframe className="responsive-iframe" src="/StrategioCert.pdf" allow="autoplay"></iframe>
+                        <iframe className="responsive-iframe" src="/StrategioCert.pdf#zoom=50%" allow="autoplay"></iframe>
                     </div>
                 </div>
             </div>
@@ -19,7 +19,7 @@ function Awards() {
                     <h1 class="display-4" style={{ fontSize: 2 + "rem" }}> Hack-A-Roo - Third Place Award </h1>
                     <hr/>
                     <div className="icontainer">
-                        <iframe className="responsive-iframe" src="/hack-a-roo_certificate.pdf" allow="autoplay"></iframe>
+                        <iframe className="responsive-iframe" src="/hack-a-roo_certificate.pdf#zoom=50%" allow="autoplay"></iframe>
                     </div>
                 </div>
             </div>
