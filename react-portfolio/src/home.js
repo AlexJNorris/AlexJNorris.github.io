@@ -49,7 +49,7 @@ function Home() {
                         <p style={{ marginTop: "50px" }}>
                             For my senior capstone, I was a software engineer and project manager for a web application project sponsored by Commerce Bank.  With my group, we used ASP.NET Razor Pages to build up our application, using ASP.NET models to build our database dynamically, Microsoft Identity for user management, and Microsoft Azure to host our application online.
                         </p>
-                        <a href="/CBWebApp" class="btn btn-primary" style={{ marginTop: "40px", marginBottom: "20px" }}>Learn More</a>
+                        <a href="/#cbwebapp" class="btn btn-primary" style={{ marginTop: "40px", marginBottom: "20px" }}>Learn More</a>
                     </div>
                 </div>
                 <hr />
@@ -62,7 +62,7 @@ function Home() {
                             DroneKit-Python library. In support of this project I also designed an IoT network using the XBee Python API to broadcast commands by RF
                             modules.
                         </p>
-                        <a href="/Swarm" class="btn btn-primary" style={{ marginTop: "40px", marginBottom: "20px" }}>Watch Demonstration</a>
+                        <a href="/#swarm" class="btn btn-primary" style={{ marginTop: "40px", marginBottom: "20px" }}>Watch Demonstration</a>
                     </div>
                     <div class="col">
                         <img class="img-responsive responsive-size" style={{ borderRadius: "25px", padding: "15px" }} src="/swarm.png" />

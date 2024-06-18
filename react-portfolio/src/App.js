@@ -9,6 +9,8 @@ import Home from './home.js';
 import Contact from './contact.js';
 import Resume from './resume.js';
 import Awards from './awards.js';
+import CBWebApp from './cbWebApp.js';
+import Swarm from './swarm.js';
 
 function Header() {
     return (
@@ -92,6 +94,14 @@ function App() {
                     <Route
                         path="/contact"
                         element={<Contact />}
+                    />
+                    <Route
+                        path="/cbwebapp"
+                        element={<CBWebApp />}
+                    />
+                    <Route
+                        path="/swarm"
+                        element={<Swarm />}
                     />
                 </Routes>
                 <hr />
