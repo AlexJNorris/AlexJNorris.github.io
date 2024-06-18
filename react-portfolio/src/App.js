@@ -80,7 +80,7 @@ function App() {
             <Router className="body bg-black text-white">
                 <Header />
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    <Route path="/react-porfolio/#" element={<Home />} />
                     <Route
                         path="/resume"
                         element={<Resume />}
