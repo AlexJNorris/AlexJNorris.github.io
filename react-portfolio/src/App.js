@@ -11,6 +11,21 @@ import Resume from './resume.js';
 import Awards from './awards.js';
 import CBWebApp from './cbWebApp.js';
 import Swarm from './swarm.js';
+import { DropdownMenu, MenuItem } from 'react-bootstrap-dropdown-menu';
+import React from 'react';
+import $ from 'jquery';
+import Popper from 'popper.js';
+
+function NavbarDropdown() {
+        return (
+            <DropdownMenu triggerType='image' trigger='/hamburger.svg' triggerWidth='25px' triggerHeight='25px' caratColor='#FF0000'>
+                <MenuItem text="CV/Resume" location="/#resume" />
+                <MenuItem text="Awards" location="/#awards" />
+                <MenuItem text="Contact" location="/#contact" />
+            </DropdownMenu>
+        )
+}
+
 
 function Header() {
     return (
@@ -18,10 +33,7 @@ function Header() {
             <nav className="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-kinda-dark border-bottom box-shadow mb-3">
                 <div className="container">
                     <a className="text-gray navbar-brand " asp-area="" href="/#">Alex Norris</a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
+                    <NavbarDropdown/>
                     <div className="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                         <ul className="navbar-nav flex-grow-1">
                             <li className="nav-item nav-mobile">
@@ -34,7 +46,7 @@ function Header() {
                                 <a className="nav-link  text-white" href="/#contact">Contact</a>
                             </li>
                         </ul>
-                        <ul className="navbar-nav">
+                        <ul className="navbar-nav nav-mobile">
                             <li style={{ marginRight: "15px" }}>
                                 <form>
                                     <a href="https://github.com/AlexJNorris">
