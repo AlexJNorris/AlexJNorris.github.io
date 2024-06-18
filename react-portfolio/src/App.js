@@ -15,7 +15,7 @@ function Header() {
         <header>
             <nav className="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-kinda-dark border-bottom box-shadow mb-3">
                 <div className="container">
-                    <a className="text-gray navbar-brand " asp-area="" href="/react-porfolio/#">Alex Norris</a>
+                    <a className="text-gray navbar-brand " asp-area="" href="/react-portfolio/#">Alex Norris</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -23,13 +23,13 @@ function Header() {
                     <div className="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                         <ul className="navbar-nav flex-grow-1">
                             <li className="nav-item nav-mobile">
-                                <a className="nav-link  text-white" href="/react-porfolio/#/resume">CV/Resume</a>
+                                <a className="nav-link  text-white" href="/react-portfolio/#resume">CV/Resume</a>
                             </li>
                             <li className="nav-item nav-mobile">
-                                <a className="nav-link  text-white" href="/react-porfolio/#/awards">Awards</a>
+                                <a className="nav-link  text-white" href="/react-portfolio/#awards">Awards</a>
                             </li>
                             <li className="nav-item nav-mobile">
-                                <a className="nav-link  text-white" href="/react-porfolio/#/contact">Contact</a>
+                                <a className="nav-link  text-white" href="/react-portfolio/#contact">Contact</a>
                             </li>
                         </ul>
                         <ul className="navbar-nav">
@@ -77,10 +77,10 @@ function App() {
                 <title>Alex Norris: Software Engineer</title>
                 <link rel="stylesheet" href="~src/bootstrap/dist/css/bootstrap.min.css" />
             </head>
-            <Router className="body bg-black text-white">
+            <Router >
                 <Header />
                 <Routes>
-                    <Route path="/react-porfolio/#" element={<Home />} />
+                    <Route path="/" element={<Home />} />
                     <Route
                         path="/resume"
                         element={<Resume />}
