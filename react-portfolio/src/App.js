@@ -16,13 +16,29 @@ import React from 'react';
 import $ from 'jquery';
 import Popper from 'popper.js';
 
+
+
 function NavbarDropdown() {
-        return (
-            <DropdownMenu triggerType='image' trigger='/hamburger.svg' triggerWidth='25px' triggerHeight='25px' caratColor='#FF0000'>
-                <MenuItem text="CV/Resume" location="/#resume" />
-                <MenuItem text="Awards" location="/#awards" />
-                <MenuItem text="Contact" location="/#contact" />
-            </DropdownMenu>
+    return (
+            <div>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+                <div class="topnav" id="myTopnav">
+                    <a className="text-gray navbar-brand " asp-area="" href="/#">Alex Norris</a>
+                    <a className="nav-link  text-white" href="/#resume">CV/Resume</a>
+                    <a className="nav-link  text-white" href="/#awards">Awards</a>
+                    <a className="nav-link  text-white" href="/#contact">Contact</a>
+                    <a href="https://github.com/AlexJNorris">
+                        <img src="/GitHub_Logo_White.png" height="35px" width="90px" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/alex-norris-09aa9510a/">
+                        <img src="/LI-In-Bug.png" height="32px" width="40px" />
+                    </a>
+                <a href="javascript:void(0);" class="icon" onClick={function toggle() {var x = document.getElementById("myTopnav");if (x.className === "topnav") {x.className += " responsive";}else {x.className = "topnav";}}}>
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
         )
 }
 
@@ -31,10 +47,9 @@ function Header() {
     return (
         <header>
             <nav className="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-kinda-dark border-bottom box-shadow mb-3">
-                <div className="container">
-                    <a className="text-gray navbar-brand " asp-area="" href="/#">Alex Norris</a>
+                <div className="navcontainer">
                     <NavbarDropdown/>
-                    <div className="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    {/*<div className="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                         <ul className="navbar-nav flex-grow-1">
                             <li className="nav-item nav-mobile">
                                 <a className="nav-link  text-white" href="/#resume">CV/Resume</a>
@@ -62,7 +77,7 @@ function Header() {
                                 </form>
                             </li>
                         </ul>
-                    </div>
+                    </div>*/}
                 </div>
             </nav>
         </header>
