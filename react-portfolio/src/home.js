@@ -7,7 +7,7 @@ function Home() {
             <div class="">
                 <div class="row">
                     <div class="col-sm-3" style={{ margin: "15px" }}>
-                        <img src="/portfolioPhoto.jpg" class="round-corners" height="100%" width="100%" />
+                        <img src="/react-portfolio/portfolioPhoto.jpg" class="round-corners" height="100%" width="100%" />
                     </div>
                     <div class="col border border-dark bg-kinda-dark text-center round-corners" style={{ margin: "15px" }}>
                         <h2 class="margin-15">Nice to meet you!</h2>
@@ -35,13 +35,13 @@ function Home() {
                         </p>
                     </div>
                     <div class="col">
-                        <img class="img-responsive responsive-size" style={{ borderRadius: "25px", padding: "15px" }} src="/logo-jenkins.jpg" />
+                        <img class="img-responsive responsive-size" style={{ borderRadius: "25px", padding: "15px" }} src="/react-portfolio/logo-jenkins.jpg" />
                     </div>
                 </div>
                 <hr />
                 <div class="row">
                     <div class="col">
-                        <img class="img-responsive responsive-size" style={{ borderRadius: "25px", padding: "15px" }} src="/cbwelcome.png" />
+                        <img class="img-responsive responsive-size" style={{ borderRadius: "25px", padding: "15px" }} src="/react-portfolio/cbwelcome.png" />
                     </div>
                     <div class="col-sm-5 text-center round-corners left-block bg-kinda-dark">
                         <h1 class="display-4" style={{ fontSize: "2rem", marginTop: "20px", marginBottom: "20px" }}>Commerce Bank Web App</h1>
@@ -65,13 +65,13 @@ function Home() {
                         <a href="/Swarm" class="btn btn-primary" style={{ marginTop: "40px", marginBottom: "20px" }}>Watch Demonstration</a>
                     </div>
                     <div class="col">
-                        <img class="img-responsive responsive-size" style={{ borderRadius: "25px", padding: "15px" }} src="/swarm.png" />
+                        <img class="img-responsive responsive-size" style={{ borderRadius: "25px", padding: "15px" }} src="/react-portfolio/swarm.png" />
                     </div>
                 </div>
                 <hr />
                 <div class="row">
                     <div class="col">
-                        <img class="img-responsive responsive-size" style={{ borderRadius: "25px", padding: "15px" }} src="/unity.png" />
+                        <img class="img-responsive responsive-size" style={{ borderRadius: "25px", padding: "15px" }} src="/react-portfolio/unity.png" />
                     </div>
                     <div class="col-sm-5 text-center round-corners left-block bg-kinda-dark">
                         <h1 class="display-4" style={{ fontSize: "2rem", marginTop: "20px", marginBottom: "20px" }}>C# Drone Simulation Library</h1>

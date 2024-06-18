@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Routes,
     Route,
 } from "react-router-dom";
@@ -15,7 +15,7 @@ function Header() {
         <header>
             <nav className="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-kinda-dark border-bottom box-shadow mb-3">
                 <div className="container">
-                    <a className="text-gray navbar-brand " asp-area="" href="/">Alex Norris</a>
+                    <a className="text-gray navbar-brand " asp-area="" href="/react-porfolio/#">Alex Norris</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -23,27 +23,27 @@ function Header() {
                     <div className="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                         <ul className="navbar-nav flex-grow-1">
                             <li className="nav-item nav-mobile">
-                                <a className="nav-link  text-white" href="/resume">CV/Resume</a>
+                                <a className="nav-link  text-white" href="/react-porfolio/#/resume">CV/Resume</a>
                             </li>
                             <li className="nav-item nav-mobile">
-                                <a className="nav-link  text-white" href="/awards">Awards</a>
+                                <a className="nav-link  text-white" href="/react-porfolio/#/awards">Awards</a>
                             </li>
                             <li className="nav-item nav-mobile">
-                                <a className="nav-link  text-white" href="/contact">Contact</a>
+                                <a className="nav-link  text-white" href="/react-porfolio/#/contact">Contact</a>
                             </li>
                         </ul>
                         <ul className="navbar-nav">
                             <li style={{ marginRight: "15px" }}>
                                 <form>
                                     <a href="https://github.com/AlexJNorris">
-                                        <img src="/GitHub_Logo_White.png" height="35px" width="90px" />
+                                        <img src="/react-portfolio/GitHub_Logo_White.png" height="35px" width="90px" />
                                     </a>
                                 </form>
                             </li>
                             <li className="nav-mobile">
                                 <form>
                                     <a href="https://www.linkedin.com/in/alex-norris-09aa9510a/">
-                                        <img src="/LI-In-Bug.png" height="32px" width="40px" />
+                                        <img src="/react-portfolio/LI-In-Bug.png" height="32px" width="40px" />
                                     </a>
                                 </form>
                             </li>
@@ -80,7 +80,7 @@ function App() {
             <Router className="body bg-black text-white">
                 <Header />
                 <Routes>
-                    <Route exact path="/" element={<Home />} />
+                    <Route path="/" element={<Home />} />
                     <Route
                         path="/resume"
                         element={<Resume />}
@@ -94,9 +94,9 @@ function App() {
                         element={<Contact />}
                     />
                 </Routes>
+                <hr />
+                <Footer />
             </Router>
-            <hr />
-            <Footer/>
         </div>
   );
 }
