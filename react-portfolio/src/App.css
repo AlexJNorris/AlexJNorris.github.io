@@ -534,6 +534,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .topnav {
     background-color: #053F5E;
     overflow: hidden;
+    float: none;
+    padding-left: 28%;
 }
 
 .navcontainer {
@@ -571,6 +573,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     .topnav a.icon {
         float: right;
         display: block;
+    }
+
+    .topnav {
+        padding-left: inherit;
     }
 }
 
