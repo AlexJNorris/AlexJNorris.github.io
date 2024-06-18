@@ -23,13 +23,13 @@ function Header() {
                     <div className="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                         <ul className="navbar-nav flex-grow-1">
                             <li className="nav-item nav-mobile">
-                                <a className="nav-link  text-white" href="/Resume">CV/Resume</a>
+                                <a className="nav-link  text-white" href="/resume">CV/Resume</a>
                             </li>
                             <li className="nav-item nav-mobile">
-                                <a className="nav-link  text-white" href="/Awards">Awards</a>
+                                <a className="nav-link  text-white" href="/awards">Awards</a>
                             </li>
                             <li className="nav-item nav-mobile">
-                                <a className="nav-link  text-white" href="/Contact">Contact</a>
+                                <a className="nav-link  text-white" href="/contact">Contact</a>
                             </li>
                         </ul>
                         <ul className="navbar-nav">
