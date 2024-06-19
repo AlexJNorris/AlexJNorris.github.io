@@ -27,6 +27,20 @@ function Home() {
                 </div>
                 <hr />
                 <div class="row">
+                    <div class="col">
+                        <img class="img-responsive responsive-size" style={{ borderRadius: "25px", padding: "15px" }} src="/9mensmorris.gif" />
+                    </div>
+                    <div class="col-sm-5 text-center round-corners left-block bg-kinda-dark">
+                        <h1 class="display-4" style={{ fontSize: "2rem", marginTop: "20px", marginBottom: "20px" }}>OpenGL 9 Men's Morris</h1>
+                        <hr />
+                        <p style={{ marginTop: "50px" }}>
+                            I developed a rendition of 9 Men's Morris in OpenGL using C++. It features a modified version of A* search for the computer opponent as demonstrated in the gif example. Also used in this project was MSTest unit testing to ensure placement and proper computer opponent behaviors.
+                        </p>
+                        <a href="https://github.com/AlexJNorris/9MensMorris" class="btn btn-primary" style={{ marginTop: "40px", marginBottom: "20px" }}>Source Code</a>
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
                     <div class="col-sm-5 text-center round-corners left-block bg-kinda-dark">
                         <h1 class="display-4" style={{ fontSize: "2rem", marginTop: "20px", marginBottom: "20px" }}>CI/CD DevOps Pipeline Using Jenkins</h1>
                         <hr />

@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\public",
+    "\\src"
   ],
+  "SelectedNode": "\\src\\swarm.js",
   "PreviewInSolutionExplorer": false
 }
