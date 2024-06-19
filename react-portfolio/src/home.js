@@ -27,6 +27,19 @@ function Home() {
                 </div>
                 <hr />
                 <div class="row">
+                    <div class="col-sm-5 text-center round-corners left-block bg-kinda-dark">
+                        <h1 class="display-4" style={{ fontSize: "2rem", marginTop: "20px", marginBottom: "20px" }}>VR Game Made In Unity Game Engine</h1>
+                        <hr />
+                        <p style={{ marginTop: "30px", marginBottom: "20px" }}>
+                            Currently in development is a VR game I have been working on in Unity Game Engine. The goal is to use a laser pointer from above the map to guide a cat to knock things off counters and steal objects. I also used community-made animations and created a simple artificial intelligence for people to try and catch the player's cat.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <img class="img-responsive responsive-size" style={{ borderRadius: "25px", padding: "15px" }} src="/catburglars.gif" />
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
                     <div class="col">
                         <img class="img-responsive responsive-size" style={{ borderRadius: "25px", padding: "15px" }} src="/9mensmorris.gif" />
                     </div>
