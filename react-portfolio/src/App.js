@@ -49,35 +49,6 @@ function Header() {
             <nav className="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-kinda-dark border-bottom box-shadow mb-3">
                 <div className="navcontainer">
                     <NavbarDropdown/>
-                    {/*<div className="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                        <ul className="navbar-nav flex-grow-1">
-                            <li className="nav-item nav-mobile">
-                                <a className="nav-link  text-white" href="/#resume">CV/Resume</a>
-                            </li>
-                            <li className="nav-item nav-mobile">
-                                <a className="nav-link  text-white" href="/#awards">Awards</a>
-                            </li>
-                            <li className="nav-item nav-mobile">
-                                <a className="nav-link  text-white" href="/#contact">Contact</a>
-                            </li>
-                        </ul>
-                        <ul className="navbar-nav nav-mobile">
-                            <li style={{ marginRight: "15px" }}>
-                                <form>
-                                    <a href="https://github.com/AlexJNorris">
-                                        <img src="/GitHub_Logo_White.png" height="35px" width="90px" />
-                                    </a>
-                                </form>
-                            </li>
-                            <li className="nav-mobile">
-                                <form>
-                                    <a href="https://www.linkedin.com/in/alex-norris-09aa9510a/">
-                                        <img src="/LI-In-Bug.png" height="32px" width="40px" />
-                                    </a>
-                                </form>
-                            </li>
-                        </ul>
-                    </div>*/}
                 </div>
             </nav>
         </header>
