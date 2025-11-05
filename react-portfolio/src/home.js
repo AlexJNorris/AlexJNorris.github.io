@@ -10,19 +10,36 @@ function Home() {
                         <img src="/portfolioPhoto.jpg" class="round-corners" height="100%" width="100%" />
                     </div>
                     <div class="col border border-dark bg-kinda-dark text-center round-corners" style={{ margin: "15px" }}>
-                        <h2 class="margin-15">Nice to meet you!</h2>
+                        <h2 class="margin-15">Welcome</h2>
                         <hr />
                         <div style={{ padding: "10px" }}>
                             <p>
-                                I am a software engineer looking for new and exciting opportunities.
+                                I am a Computer Science graduate researcher specializing in physics-informed machine learning, autonomous systems, and cloud-based software development.
                             </p>
                             <p>
-                                Over my coding journey, I have made use of a plethora of frameworks such as Azure, AWS, Cucumber, Protractor, Springboot, Selenium, .NET Core, Angular, and Unity Game Engine.
+                                My experience spans research and industry roles in AI, software testing automation, and full-stack development. I have worked extensively with technologies such as Python, Java, C#, Spring Boot, Selenium, PyTorch, TensorFlow, AWS, and Unity.
+                            </p>
+                            <p>
+                                I am passionate about integrating physics-based modeling with machine learning to develop reliable, intelligent systems for defense and automation applications.
                             </p>
                             <p style={{ marginBottom: "20px" }}>
-                                Feel free to explore my projects below and contact me if you have any questions!
+                                Explore my projects below to see how I combine theory and engineering to build robust, data-driven solutions.
                             </p>
                         </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col">
+                        <img class="img-responsive responsive-size" style={{ borderRadius: "25px", padding: "15px" }} src="/videotube.png" />
+                    </div>
+                    <div class="col-sm-5 text-center round-corners left-block bg-kinda-dark">
+                        <h1 class="display-4" style={{ fontSize: "2rem", marginTop: "20px", marginBottom: "20px" }}>Full-Stack Video Streaming App</h1>
+                        <hr />
+                        <p style={{ marginTop: "50px" }}>
+                            Built a secure full-stack video streaming application using PHP, JavaScript, and MySQL with user authentication, deployed to AWS Beanstalk, and implementing AWS CloudFront for a CDN, improving client-side performance and scalability.
+                        </p>
+                        <a href="http://vt-env.eba-cubcbpyb.us-east-1.elasticbeanstalk.com/" class="btn btn-primary" style={{ marginTop: "40px", marginBottom: "20px" }}>Check it out!</a>
                     </div>
                 </div>
                 <hr />
