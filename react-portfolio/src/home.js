@@ -14,13 +14,10 @@ function Home() {
                         <hr />
                         <div style={{ padding: "10px" }}>
                             <p>
-                                I am a Computer Science graduate researcher specializing in physics-informed machine learning, autonomous systems, and cloud-based software development.
+                                I am a technical professional specializing in physics-informed machine learning, autonomous systems, and cloud-based software development.
                             </p>
                             <p>
-                                My experience spans research and industry roles in AI, software testing automation, and full-stack development. I have worked extensively with technologies such as Python, Java, C#, Spring Boot, Selenium, PyTorch, TensorFlow, AWS, and Unity.
-                            </p>
-                            <p>
-                                I am passionate about integrating physics-based modeling with machine learning to develop reliable, intelligent systems for defense and automation applications.
+                                My experience spans research and industry roles in AI, MSP monitoring and triage, software testing automation, and full-stack development. I have worked extensively with technologies such as AWS, Azure, Python, Java, C#, Spring Boot, Selenium, PyTorch, TensorFlow, and Unity.
                             </p>
                             <p style={{ marginBottom: "20px" }}>
                                 Explore my projects below to see how I combine theory and engineering to build robust, data-driven solutions.
