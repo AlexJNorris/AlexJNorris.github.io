@@ -10,7 +10,7 @@ function Resume() {
                 <h1 class="display-4" style={{fontSize: 2 + 'rem'}}> Resume </h1>
                 <hr />
                 <div className="icontainer">
-                    <iframe className="responsive-iframe" src="https://drive.google.com/file/d/1-dxrFKfDZwHM_BkDqRuACaMMtky5-17L/preview" allow="autoplay"></iframe>
+                    <iframe className="responsive-iframe" src="https://drive.google.com/file/d/1DZtIMBfz6OoFTD0PJnR1rpILckM3txXc/preview" allow="autoplay"></iframe>
                 </div>
             </div>
         </div>
